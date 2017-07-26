@@ -1,3 +1,11 @@
-2016-03-18
+#java4docker
 
-docker run -it --rm supermy/ap-jre java -version
+##介绍
+
+java 环境
+
+## 构建指令
+
+    docker build -t supermy/ap-jre  jre
+    docker build -t supermy/ap-jre8  -f jre/Dockerfile1.8 jre 
+
